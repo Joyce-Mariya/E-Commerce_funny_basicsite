@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rapunzel store</title>
+<style>
+body{
+background:url(fh4.jpg);
+;
+}
+a:link { text-decoration:none; }
+a:visited { text-decoration:none; }
+a:hover { text-decoration:none; }
+a:active { text-decoration:none; }
+.centerimg{
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+h1 span{
+background-color:#F8F8F8;
+}
+h3 span{
+background-color:rgb(50,0,0);
+color:#DCEDC1;
+}
+p span{
+background-color:rgb(171,78,82);
+}
+th{
+color:purple;
+}
+</style>
+</head>
+<body>
+<header id="header">
+<button onclick="document.location='home.html'" style="float:right;fontsize:30px;margin-right:45px;margintop:40px;color:rgb(100,100,100);">Home</button>
+<button onclick="document.location='sign.php'" style="float:right;fontsize:30px;margin-right:45px;color:rgb(100,100,100);">Sign
+Up</button>
+</header>
+<br><br><br><br>
+<h1 style="text-align:center;color:purple;"><span>THE RAPUNZEL STORE</span></h1>
+<br><br><br><br><br><br>
+<form method="POST" action="http://localhost/ITE IRS/buynow_dir.php">
+<table align="right" cellpadding="5"
+background="https://images.pexels.com/photos/1435735/pexels-photo1435735.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+<tr>
+ <th>Item name</th>
+ <th>Item Code</th>
+ <th>Price in Rs.</th>
+ <th>Quantity</th>
+</tr>
+<tr>
+<td><input type="text" value="Colours" name="cl" readonly></td>
+<td><input type="text" value="CC124" name="clcode" required> </td>
+<td><input type="number" <td><input type="text" value="Conditioner" name="cd" readonly></td>
+<td><input type="text" value="CC421" name="cdcode" required> </td>
+<td><input type="number" value="180" name="cdprice" readonly></td>
+<td><input type="number" name="cdquantity" value="0" min="0" max="10"></td>
+</tr>
+<tr>
+<td><input type="text" value="Gel" name="gl" readonly></td>
+<td><input type="text" value="GL098" name="glcode" required> </td>
+<td><input type="number" value="245" name="glprice" readonly></td>
+value="150" name="clprice" readonly></td>
+<td><input type="number" name="clquantity" value="0" min="0"
+max="10"></td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td><input type="text" value="Glue" name="gu" readonly></td>
+<td><input type="text" value="GL789" name="gucode" required> </td>
+<td><input type="number" value="245" name="guprice" readonly></td>
+<td><input type="number" name="guquantity" value="0" min="0"
+max="10"></td>
+</tr>
+<tr>
+<td><input type="text" value="Serum" name="sr" readonly></td>
+<td><input type="text" value="SE567" name="srcode" required> </td>
+<td><input type="number" value="320" name="srprice" readonly></td>
+<td><input type="number" name="srquantity" value="0" min="0"
+max="10"></td>
+</tr>
+<tr>
+<td><input type="text" value="Spray" name="sp" readonly></td>
+<td><input type="text" value="SP3112" name="spcode" required> </td>
+<td><input type="number" value="210" name="spprice" readonly></td>
+<td><input type="number" name="spquantity" value="0" min="0" max="10"></td>
+</tr>
+<tr>
+<td><input type="text" value="Tonic" name="tc" readonly></td>
+<td><input type="text" value="TC437" name="tccode" required> </td>
+<td><input type="number" value="199" name="tcprice" readonly></td>
+<td><input type="number" name="tcquantity" value="0" min="0"
+max="10"></td>
+</tr>
+<tr>
+<td><input type="text" value="Oil" name="ol"
+readonly></td>
+<td><input type="text" value="OL857" name="olcode" required> </td>
+<td><input type="number" value="199" name="olprice" readonly></td>
+<td><input type="number" name="olquantity" value="0" min="0"
+max="10"></td>
+</tr>
+<tr>
+<td><input type="text" value="Mask" name="mk"
+readonly></td>
+<td><input type="text" value="MK093" name="mkcode" required> </td>
+<td><input type="number" value="330" name="mkprice" readonly></td>
+<td><input type="number" name="mkquantity" value="0" min="0"
+max="10"></td>
+</tr>
+<tr>
+<td><input type="text" value="Shampoo" name="sp" readonly></td>
+<td><input type="text" value="SP9981" name="spcode" required> </td>
+<td><input type="number" value="210" name="spprice" readonly></td>
+<td><input type="number" name="spquantity" value="0" min="0"
+max="10"></td>
+</tr>
+<tr>
+<td><input type="text" value="Mousse" name="mu" readonly></td>
+<td><input type="text" value="MS455" name="mucode" required> </td>
+<td><input type="number" value="145" name="muprice" readonly></td>
+<td><input type="number" name="muquantity" value="0" min="0"
+max="10"></td>
+</tr>
+<tr>
+<td><input type="text" value="Pomade" name="pd" readonly></td>
+<td><input type="text" value="PO786" name="pdcode" required> </td>
+<td><input type="number" value="165" name="pdprice" readonly></td>
+<td><input type="number" name="pdquantity" value="0" min="0"
+max="10"></td>
+</tr>
+<tr>
+<td><input type="text" value="Comb,clip,pin" name="ccp" readonly></td>
+<td><input type="text" value="CCP065" name="ccpcode" required> </td>
+<td><input type="number" value="190" name="ccpprice" readonly></td>
+<td><input type="number" name="ccpquantity" value="0" min="0"
+max="10"></td>
+</tr>
+<tr>
+<td><input type="text" value="Dryer" name="dr" readonly></td>
+<td><input type="text" value="DR348" name="drcode" required> </td>
+<td><input type="number" value="750" name="drprice" readonly></td>
+<td><input type="number" name="drquantity" value="0" min="0" max="10"></td>
+</tr>
+<tr>
+<td><input type="text" value="Roller" name="rl" readonly></td>
+<td><input type="text" value="RLC77" name="rlcode" required> </td>
+<td><input type="number" value="750" name="rlprice" readonly></td>
+<td><input type="number" name="rlquantity" value="0" min="0"
+max="10"></td>
+</tr>
+<tr>
+<td><input type="text" value="Crunchies" name="cr"
+readonly></td>
+<td><input type="text" value="ZXC89" name="crcode" required> </td>
+<td><input type="number" value="130" name="crprice" readonly></td>
+<td><input type="number" name="crquantity" value="0" min="0"
+max="10"></td>
+</tr>
+<tr>
+<td><input type="text" value="Kanzashi" name="kz" readonly></td>
+<td><input type="text" value="KSZ93" name="kzcode" required> </td>
+<td><input type="number" value="250" name="kzprice" readonly></td>
+<td><input type="number" name="kzquantity" value="0" min="0"
+max="10"></td>
+</tr>
+<tr>
+<td><input type="text" value="Shower cap" name="sc" readonly></td>
+<td><input type="text" value="SWC156" name="sccode" required> </td>
+<td><input type="number" value="120" name="scprice" readonly></td>
+<td><input type="number" name="scquantity" value="0" min="0"
+max="10"></td>
+</tr>
+<tr>
+<td colspan="4" align="center">
+<input type="submit" value="Buy Now"><br></td>
+</tr>
+<td colspan="4" align="center">
+<p>New User? <a href="http://localhost/ITE IRS/sign.php"
+style="colo:rgb(0,200,20);">Sign Up</a></td>
+</tr>
+</table>
+</form>
+<br><br><br>
+<font face="castellar"><font color="purple">
+<font size=40>
+<script>
+document.write("Let the tiara fix in the volumous hair");
+document.write("<br>");
+document.write("Be prepared for your Rapunzel hair");
+document.write("<br>");
+document.write("make the right choice from here");
+document.write("<br>");
+</script>
+</font face>
+-------------------------------------------->Order before the quantity goes 0
+<br><br>
+-------------------------------------------->Get your items delivered with 4 days of order
+<br><br>
+-------------------------------------------->Track your products
+<br><br>
+-------------------------------------------->Any complaints about the product's quality can be mailed to us
+<br><br>
+-------------------------------------------->keep away from children 
+<br><br>
+-------------------------------------------->Consult before use
+</body>
+</html>
